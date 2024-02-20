@@ -5,8 +5,17 @@
 *.txt
 *.zip
 *.png
+*.jpg
+*.gif
+*.wav
+*.mp3
 /2016B/Semi Métodos Matemáticos 1/Actividades
 /2016B/Semi Métodos Matemáticos 1/Cifrado Info
+/2017A/Act. 9 Laplace Def
+/2017A/Algoritmia
+/2017A/Notas
+2017A/Semi de algoritmia/Proyecto final - 212575181/Documentacion
+2017A/Teoria de la computacion/Temas de proymoodle
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d
