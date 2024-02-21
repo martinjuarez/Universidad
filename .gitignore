@@ -49,6 +49,8 @@
 *.ppsx
 *.xls
 *.mpeg
+*.veg
+*.mp4.sfk
 bin/
 .settings/
 obj/
@@ -160,6 +162,43 @@ obj/
 2021A/Seminario de Solución de Problemas de Sistemas Operativos de Red
 2021A/Sistemas Concurrentes y Distribuidos
 2021A/Taller de investigacion
+2021B/Computación Tolerante a Fallas/Exposicion
+2021B/Computación Tolerante a Fallas/Photos Comp
+2021B/Computación Tolerante a Fallas/Tarea 1
+2021B/Computación Tolerante a Fallas/Tarea 2
+2021B/Computación Tolerante a Fallas/Tarea 3
+2021B/Computación Tolerante a Fallas/Tarea 4
+2021B/Computación Tolerante a Fallas/Tarea 5
+2021B/Computación Tolerante a Fallas/Tarea 6 - Examen
+2021B/Computación Tolerante a Fallas/Tarea 7
+2021B/Computación Tolerante a Fallas/Tarea 8
+2021B/INTELIGENCIA ARTIFICIAL II/Exposicion
+2021B/INTELIGENCIA ARTIFICIAL II/Jupyter
+2021B/INTELIGENCIA ARTIFICIAL II/Meet
+2021B/INTELIGENCIA ARTIFICIAL II/Notas MLP
+2021B/INTELIGENCIA ARTIFICIAL II/Presentaciones Profe
+2021B/INTELIGENCIA ARTIFICIAL II/Tareas
+2021B/INTELIGENCIA ARTIFICIAL II/Practicas
+2021B/Sem AI-I/Agents/Agents-20211025T183631Z-001
+2021B/Sem AI-I/Clases Sem IA
+2021B/Sem AI-I/Evolutionary Algorithms
+2021B/Sem AI-I/Fundamentals of EC
+2021B/Sem AI-I/GAs Applications
+2021B/Sem AI-I/Genetic Algorithms
+2021B/Sem AI-I/Genetic Algorithms_The Roulette Wheel Selection Technique
+2021B/Sem AI-I/hands ons
+2021B/Sem AI-I/Hands-on 2
+2021B/Sem AI-I/JADE full
+2021B/Sem AI-I/Meet
+2021B/Sem AI-I/Simple Linear Regression
+2021B/Sem AI-I/Tech Reading 1 Jade Overview
+2021B/Sem AI-I/Tech Reading 2
+2021B/Sem AI-I/Tech Reading 3
+2021B/Sem AI-I/Tech Reading 5 _R-Squared for Evolutionary Optimization
+2021B/Sem AI-I/Tech Reading_3 Roulette Wheel
+2021B/Sem AI-I/Tech Reading_Evolutionary Computation
+2021B/Sem AI-I/The Gradient
+2021B/Sem AI-I/Types of Problems
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d
