@@ -1,0 +1,24 @@
+disp("Hola");
+x=87;
+x0=75;
+x1=80;
+x2=85;
+x3=90;
+fx0=4.1291;
+fx1=3.4053;
+fx2=2.8261;
+fx3=2.3593;
+h=x1-x0;
+s=(x-x0)/h; 
+A=fx1-fx0;
+B=fx2-fx1;
+C=fx3-fx2;
+D=B-A;
+E=C-B;
+F=E-D;
+fac1=factorial(2);
+fac2=factorial(3);
+disp("La respuesta es: ");
+P1=fx0+s*A
+P2=P1+(s*(s-1)/fac1)*D
+P3=P2+(s*(s-1)*(s-2)/fac2)*F

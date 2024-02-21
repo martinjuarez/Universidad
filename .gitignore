@@ -12,6 +12,11 @@
 *.jpeg
 *.tex
 *.jff
+*.dia
+*.cpp.save-failed
+*.depend
+*.layout
+*.ppt
 /2016B/Semi Métodos Matemáticos 1/Actividades
 /2016B/Semi Métodos Matemáticos 1/Cifrado Info
 /2017A/Act. 9 Laplace Def
@@ -29,6 +34,9 @@
 2017B/Teoria de la computacion/Clases
 2017B/Teoria de la computacion/JUAREZ PLASCENCIA 2017B  ACTIVIDADES
 2017B/Teoria de la computacion/Referencias
+2018A/Ingenieria de software
+2018A/Metodos matematicos III
+2018A/Seminario de problemas de metodos matematicos/Video imagenes
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d
