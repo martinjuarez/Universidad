@@ -9,6 +9,7 @@
 *.gif
 *.wav
 *.mp3
+*.mp4
 *.jpeg
 *.tex
 *.jff
@@ -37,6 +38,17 @@
 *.mat
 *.7z
 *.suo
+*.mm
+*.html_files
+*.html
+*.svg
+*.mkv
+*.vs
+*.apk
+*.cache
+bin/
+.settings/
+obj/
 2016B/Semi Métodos Matemáticos 1/Actividades
 2016B/Semi Métodos Matemáticos 1/Cifrado Info
 2017A/Act. 9 Laplace Def
@@ -84,7 +96,49 @@
 2019B/Agenda 2020A
 2019B/Formacion Empresarial
 2019B/Sistemas operativos
-*.vs
+2020A/Administracion de bases de datos/00_Programa de la materia, Libro Elmasri, ejemplos de ejercicios de BD Relacional y DER y EER
+2020A/Administracion de bases de datos/02_Administración de bases de datos
+2020A/Administracion de bases de datos/03_Apuntes del tema Gestores de BD Diagrama conceptual de Sistemas de BD,
+2020A/Administracion de bases de datos/04_LIGA PARA SUBIR LAS EXPOSICIONES POR EQUIPO
+2020A/Administracion de bases de datos/05_Actividad 1 Ensayo Unidad 1
+2020A/Administracion de bases de datos/06_Apuntes, tema Respaldo y recuperación
+2020A/Administracion de bases de datos/07_Actividad 2 Respaldo y recuperación de BD
+2020A/Administracion de bases de datos/08_PROYECTO
+2020A/Administracion de bases de datos/09_Actividad 3 Administración de Usuarios (por equipo de proyecto)
+2020A/Administracion de bases de datos/10_LIGA PARA SUBIR LAS PREGUNTAS DISEÑADAS EN CLASE POR CADA EQUIPO
+2020A/Administracion de bases de datos/11_Actividad 4 Administración y Mantenimiento de la base de datos
+2020A/Administracion de bases de datos/12_Apuntes UNIDAD 4. Concurrencia y bloqueos de los Sistemas de Bases de Datos
+2020A/Administracion de bases de datos/13_Actividad durante la clase
+2020A/Administracion de bases de datos/14_Actividad 5 Problemas relacionado con la concurrencia, por equipo
+2020A/Administracion de bases de datos/15_Tarea (Asistencia) Subir la tarea en hora clase, si se sube posterior a al horario tendrás falta
+2020A/Administracion de bases de datos/16_Actividad 6 Infografia Bloqueos
+2020A/Administracion de bases de datos/17_Tarea (Asistencia)
+2020A/Administracion de bases de datos/18_Tarea de equipo Transacciones
+2020A/Administracion de bases de datos/20_Apuntes_Unidad 5 BASES DE DATOS DISTRIBUIDAS
+2020A/Administracion de bases de datos/21_Tare 6_ MapaM BDistribuidas
+2020A/Administracion de bases de datos/23_Avance 3b_Proyecto_Vídeo y Reporte de administración de usuarios, inciso b
+2020A/Administracion de bases de datos/24_Avance 4c_Proyecto_mapa mental Admon y Matto BD
+2020A/Administracion de bases de datos/25_Tarea 7_DiagDistrib yFragmentaciones
+2020A/Administracion de bases de datos/26_Avance 5e_Consultas distribuidas
+2020A/Administracion de bases de datos/27_Tarea_Proyecto/Proyecto/Incisos
+2020A/Administracion de bases de datos/27_Tarea_Proyecto/Proyecto/Manual Tecnico
+2020A/Administracion de bases de datos/27_Tarea_Proyecto/Proyecto/Manual Usuario
+2020A/Administracion de bases de datos/27_Tarea_Proyecto/Proyecto/Programa en ejecucion
+2020A/Administracion de bases de datos/28_Resumen general
+2020A/Administracion de bases de datos/29_Examen ordinario
+2020A/Administracion de bases de datos/30_Portafolio
+2020A/Administracion de bases de datos/Exposiciones
+2020A/Administracion de bases de datos/Imagenes
+2020A/Administracion de bases de datos/Referencias
+2020A/Inteligencia artificial/Referencias
+2020A/Programacion para internet/Avance 2
+2020A/Programacion para internet/Avance 3
+2020A/Programacion para internet/Avance 4 y ultimo
+2020A/Programacion para internet/Entrega Proyecto/Evaluacion
+2020A/Programacion para internet/Entrega Proyecto/Imagenes proyecto
+2020A/Programacion para internet/Maquetado App
+2020A/Programacion para internet/tarea bd
+2020A/Semestre
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d

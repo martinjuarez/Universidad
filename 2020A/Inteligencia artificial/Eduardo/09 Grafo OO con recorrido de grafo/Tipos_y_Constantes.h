@@ -1,0 +1,10 @@
+#ifndef TIPOS_Y_CONSTANTES_H_INCLUDED
+#define TIPOS_Y_CONSTANTES_H_INCLUDED
+
+const int MAX_LINEAS_POR_PAGINA=20;
+#define ETIQUETA_ARCO_NULA -1
+#define VERTICE_NULO -1
+#define ARCO_NULO nullptr
+typedef int tipo_indice;
+
+#endif // TIPOS_Y_CONSTANTES_H_INCLUDED
