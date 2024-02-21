@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat May 21 12:50:58 2022
+
+@author: marti
+"""
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import datasets , svm, metrics
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+# Leer datos
+data = pd.read_csv('../Datasets/mnist_784.csv')
+# Definir numero de ejemplos
+n_samples = 10000
+# vamos a omitir class que es nuestro target o valor deseado
+x = np.asanyarray(data.drop(columns=['class']))[:n_samples,:]
+y = np.asanyarray(data[['class']])[:n_samples].ravel()
+
+# Dibujar un ejemplo de manera aleatoria
+sample = np.random.randint(n_samples)
+plt.imshow(x[sample].reshape((28,28)), cmap=plt.cm.gray)
+plt.title('Target: %i' % y[sample])
+plt.show()
+
+scalerS = StandardScaler()
+scaledS=scalerS.fit_transform(x)
+
+# Separar conjuntos de entrenamiento y prueba
+xtrain , xtest , ytrain , ytest = train_test_split(x, y, test_size =0.1)
+
+# Instanciar el Pipeline
+model = Pipeline([
+('PCA', PCA(n_components = 35)),
+('scaler', StandardScaler()),
+('SVM', svm.SVC(gamma=0.0001))])
+model.fit(xtrain , ytrain)
+
+# Aplicar metrica al modelo
+print('Train: ', model.score(xtrain , ytrain))
+print('Test: ', model.score(xtest , ytest))
+
+# Hacer predicciones del test
+ypred = model.predict(xtest)
+
+# Reporte de Cla sifi caci n
+print('Classification report: \n', metrics.classification_report(ytest , ypred))
+
+# Matrix de Confusion
+print('Confusion matrix: \n', metrics.confusion_matrix(ytest , ypred))
+
+sample = np.random.randint(xtest.shape[0])
+plt.imshow(xtest[sample].reshape((28,28)), cmap=plt.cm.gray)
+plt.title('Prediction: %i' % ypred[sample])
+plt.show()
+
+disp = metrics.plot_confusion_matrix(model ,xtest , ytest, cmap=plt.cm.Blues,)
+disp.ax_.set_title("Confusion matrix , without estandarization")
+plt.show()
+#.----------------------------------------------------------------------------
+xtrain , xtest , ytrain , ytest = train_test_split(scaledS, y, test_size =0.1)
+
+# Instanciar el Pipeline
+model = Pipeline([
+('PCA', PCA(n_components = 35)),
+('scaler', StandardScaler()),
+('SVM', svm.SVC(gamma=0.0001))])
+model.fit(xtrain , ytrain)
+
+# Aplicar metrica al modelo
+print('Train: ', model.score(xtrain , ytrain))
+print('Test: ', model.score(xtest , ytest))
+
+# Hacer predicciones del test
+ypred = model.predict(xtest)
+
+# Reporte de Cla sifi caci n
+print('Classification report: \n', metrics.classification_report(ytest , ypred))
+
+# Matrix de Confusion
+print('Confusion matrix: \n', metrics.confusion_matrix(ytest , ypred))
+
+sample = np.random.randint(xtest.shape[0])
+plt.imshow(xtest[sample].reshape((28,28)), cmap=plt.cm.gray)
+plt.title('Prediction: %i' % ypred[sample])
+plt.show()
+
+disp = metrics.plot_confusion_matrix(model ,xtest , ytest, cmap=plt.cm.Blues,)
+disp.ax_.set_title("Confusion matrix , with estandarization")
+plt.show()
+
+# Guardar modelo
+import pickle
+pickle.dump(model , open('Mnist_classifier.sav', 'wb'))
