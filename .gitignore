@@ -48,6 +48,7 @@
 *.cache
 *.ppsx
 *.xls
+*.mpeg
 bin/
 .settings/
 obj/
@@ -144,6 +145,21 @@ obj/
 2020B/Control de proyectos
 2020B/Sistemas Operativos de Red
 2020B/Seminario de Solucion de Problemas de Sistemas Operativos
+2021A/Inteligencia Artificial II
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/01.Presentación
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/02.Introducción a algoritmos evolutivos
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/03.Comparación entre estrategias de Inteligencia Artificial
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/04.Repaso de Inteligencia Artificial
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/05.Optimización
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/06.Optimización Encontrar puntos estacionarios
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/07.Optimización Clásica/Derivadas
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/08.Funciones para probar algoritmos de optimización
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/10.Fundamentos de algoritmos evolutivos
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/13.Algoritmo Genético Binario Act
+2021A/Seminario de Solución de Problemas de Inteligencia artificial I/14.Algoritmo Genético Continuo
+2021A/Seminario de Solución de Problemas de Sistemas Operativos de Red
+2021A/Sistemas Concurrentes y Distribuidos
+2021A/Taller de investigacion
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d
