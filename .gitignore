@@ -9,6 +9,9 @@
 *.gif
 *.wav
 *.mp3
+*.jpeg
+*.tex
+*.jff
 /2016B/Semi Métodos Matemáticos 1/Actividades
 /2016B/Semi Métodos Matemáticos 1/Cifrado Info
 /2017A/Act. 9 Laplace Def
@@ -16,6 +19,16 @@
 /2017A/Notas
 2017A/Semi de algoritmia/Proyecto final - 212575181/Documentacion
 2017A/Teoria de la computacion/Temas de proymoodle
+2017B/Estructura de datos II/escaners
+2017B/Estructura de datos II/Exposicion
+2017B/Estructura de datos II/JUAREZ PLASCENCIA 2017B TAREAS
+2017B/Metodos matematicos II
+2017B/Redes de computadoras y protocolos de comunicacion
+2017B/Seminario de estructuras de datos II/estructura
+2017B/Seminario de estructuras de datos II/Notas
+2017B/Teoria de la computacion/Clases
+2017B/Teoria de la computacion/JUAREZ PLASCENCIA 2017B  ACTIVIDADES
+2017B/Teoria de la computacion/Referencias
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d
