@@ -46,6 +46,8 @@
 *.vs
 *.apk
 *.cache
+*.ppsx
+*.xls
 bin/
 .settings/
 obj/
@@ -139,6 +141,9 @@ obj/
 2020A/Programacion para internet/Maquetado App
 2020A/Programacion para internet/tarea bd
 2020A/Semestre
+2020B/Control de proyectos
+2020B/Sistemas Operativos de Red
+2020B/Seminario de Solucion de Problemas de Sistemas Operativos
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d
@@ -635,3 +640,26 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
