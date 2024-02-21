@@ -34,11 +34,14 @@
 *.com.symbol
 *.com_.symbol
 *.tscproj
-/2016B/Semi Métodos Matemáticos 1/Actividades
-/2016B/Semi Métodos Matemáticos 1/Cifrado Info
-/2017A/Act. 9 Laplace Def
-/2017A/Algoritmia
-/2017A/Notas
+*.mat
+*.7z
+*.suo
+2016B/Semi Métodos Matemáticos 1/Actividades
+2016B/Semi Métodos Matemáticos 1/Cifrado Info
+2017A/Act. 9 Laplace Def
+2017A/Algoritmia
+2017A/Notas
 2017A/Semi de algoritmia/Proyecto final - 212575181/Documentacion
 2017A/Teoria de la computacion/Temas de proymoodle
 2017B/Estructura de datos II/escaners
@@ -77,6 +80,11 @@
 2019A/Tramite MiPasaje
 2019A/SEMINARIO DE TRADUCTORES DE LENGUAJES/Actividades/Practica 1/Entrega
 2019A/SEMINARIO DE TRADUCTORES DE LENGUAJES/Tarea
+2019B/Administracion
+2019B/Agenda 2020A
+2019B/Formacion Empresarial
+2019B/Sistemas operativos
+*.vs
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d
