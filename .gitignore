@@ -27,6 +27,13 @@
 *.iml
 *.jar
 *.ink
+*.com
+*.com_
+*.com.list
+*.com_.list
+*.com.symbol
+*.com_.symbol
+*.tscproj
 /2016B/Semi Métodos Matemáticos 1/Actividades
 /2016B/Semi Métodos Matemáticos 1/Cifrado Info
 /2017A/Act. 9 Laplace Def
@@ -58,6 +65,18 @@
 2018B/Traductores de lenguajes
 2018B/Seminario Bases de datos/Actividades
 2018B/Seminario Bases de datos/Notas
+2019A/Codigo para bases de datos
+2019A/Duplicado Credencial
+2019A/Horario
+2019A/Ingenieria en computacion
+2019A/SEGURIDAD/ESP8266 Firmware Update
+2019A/SEGURIDAD/Referencias
+2019A/SEMINARIO DE ARQUITECTURA DE COMPUTADORAS
+2019A/SEMINARIO DE INGENIERIA DE SOFTWARE/Grupo
+2019A/SEMINARIO DE INGENIERIA DE SOFTWARE/Individual
+2019A/Tramite MiPasaje
+2019A/SEMINARIO DE TRADUCTORES DE LENGUAJES/Actividades/Practica 1/Entrega
+2019A/SEMINARIO DE TRADUCTORES DE LENGUAJES/Tarea
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d
