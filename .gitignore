@@ -13,10 +13,20 @@
 *.tex
 *.jff
 *.dia
+*.dia~
 *.cpp.save-failed
 *.depend
 *.layout
 *.ppt
+*.rar
+*.gz
+*.url
+*.xd
+*.jar
+*.xml
+*.iml
+*.jar
+*.ink
 /2016B/Semi Métodos Matemáticos 1/Actividades
 /2016B/Semi Métodos Matemáticos 1/Cifrado Info
 /2017A/Act. 9 Laplace Def
@@ -37,6 +47,17 @@
 2018A/Ingenieria de software
 2018A/Metodos matematicos III
 2018A/Seminario de problemas de metodos matematicos/Video imagenes
+2018B/Agenda 2019A
+2018B/Arquitectura de computadoras
+2018B/Bases de datos/Actividades
+2018B/Bases de datos/Examen BD
+2018B/Bases de datos/pgAdmin
+2018B/Bases de datos/Referencias
+2018B/Seminario Bases de datos/Referencias
+2018B/Seminario Ing de software
+2018B/Traductores de lenguajes
+2018B/Seminario Bases de datos/Actividades
+2018B/Seminario Bases de datos/Notas
 #---------------------------------------------------------------------------C++
 # Prerequisites
 *.d
@@ -297,7 +318,7 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
 #---------------------------------------------------------------------------TeX
 ## Core latex/pdflatex auxiliary files:
 *.aux
